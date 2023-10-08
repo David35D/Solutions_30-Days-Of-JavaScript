@@ -136,11 +136,11 @@ if (date <= 9) {
     date = `0${date}`;
 }
 
-if (minutes >= 0) {
+if (minutes <= 9) {
     minutes = `0${minutes}`;
 }
 
-if (hour >= 0) {
+if (hour <= 9) {
     hour = `0${hour}`;
 }
 
